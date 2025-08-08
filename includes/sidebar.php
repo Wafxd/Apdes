@@ -37,11 +37,21 @@
 
     <!-- Nav Item - Surat Menyurat -->
     <li class="nav-item">
-        <a class="nav-link" href="surat.html">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSuratMenyurat" 
+        aria-expanded="true" aria-controls="collapseSuratMenyurat">
             <i class="fas fa-fw fa-envelope"></i>
             <span>Surat Menyurat</span>
         </a>
+        <div id="collapseSuratMenyurat" class="collapse" aria-labelledby="headingSuratMenyurat" 
+            data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Menu Surat Menyurat:</h6>
+                <a class="collapse-item" href="penduduk.php">Penduduk</a>
+                <a class="collapse-item" href="keluarga.php">Keluarga</a>
+            </div>
+        </div>
     </li>
+
 
     <!-- Nav Item - Keuangan -->
     <li class="nav-item">
